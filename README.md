@@ -20,6 +20,9 @@ In the masks directory, there are 4000 gray scale images which are the actual gr
 
 ## Training 
 Adam Optimizer and Binary Cross Entropy used
-Learning rate decay if the validation loss does not improve for 5 continues epochs.
-Early stopping if the validation loss does not improve for 10 continues epochs.
-Save the weights only if there is improvement in validation loss.
+Learning rate decays if the validation loss does not improve for 5 continues epochs.
+Early stopping in case the validation loss does not improve for 10 epochs.
+Weights are saved only if there is improvement in validation loss.
+
+## Result
+Possible overfitting due to dataset size
